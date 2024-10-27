@@ -1,3 +1,4 @@
 node_modules
 # Keep environment variables out of version control
 .env
+src/triply-d7e31-firebase-adminsdk-xuimf-805aa5de4d.json
