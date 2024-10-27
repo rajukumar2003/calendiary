@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node src/server.js",
     "build": "npm install",
-    "install": "npm install",
     "postinstall": "npx prisma generate"
   },
   "keywords": [],
