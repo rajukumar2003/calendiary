@@ -5,7 +5,8 @@
   "scripts": {
     "start": "cd backend && npm start",
     "build": "cd frontend && npm run build",
-    "install": "cd frontend && npm install && cd ../backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
     "postinstall": "cd backend && npx prisma generate"
   },
   "engines": {

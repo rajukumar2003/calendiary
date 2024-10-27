@@ -4,10 +4,10 @@
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "start": "cd backend && npm start",
-    "build": "cd frontend && npm run build && cd ../backend && npm install",
-    "install": "cd frontend && npm install && cd ../backend && npm install",
-    "postinstall": "cd backend && npx prisma generate"
+    "start": "node src/server.js",
+    "build": "npm install",
+    "install": "npm install",
+    "postinstall": "npx prisma generate"
   },
   "keywords": [],
   "author": "",
