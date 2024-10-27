@@ -4,7 +4,7 @@ import axios from 'axios';
 import { CalendarEvent } from '../types';
 
 const api = axios.create({
-    baseURL: 'http://localhost:3000/api',
+    baseURL: 'https://calendiary-production.up.railway.app/api',
 });
 
 api.interceptors.request.use((config) => {
